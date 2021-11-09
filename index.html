@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>BEE Hive - AI Simulation @ ISMAT 2016</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+      <style>
+         body {
+		 font-family: Monospace;
+		 background-color: #ccccff;
+		 margin: 0px;
+		 overflow: hidden;
+         }
+
+	#status {
+
+		position: fixed;
+		top: 20px;
+		right: 30px;
+		width: 250px;
+		min-height:150px;
+		max-height:450px;
+		padding:5px;
+		background-color:#000;
+		border:2px solid #333;
+		opacity:0.8;
+		color:#fff;
+		overflow:auto;
+
+	}
+      </style>
+   </head>
+   <body onload="sceneHandler.init()">
+	<script src="js/libs/three.min.js"></script>
+
+	<script src="js/libs/helvetiker_regular.typeface.js"></script>
+	<script src="js/libs/helvetiker_bold.typeface.js"></script>
+	<script src="js/libs/OrbitControls.js"></script>
+	<script src="js/libs/Projector.js"></script>
+	<script src="js/libs/CanvasRenderer.js"></script>
+	<script src="js/libs/KeyboardState.js"></script>
+	<script src="js/hive.js"></script>
+	<script src="js/obstacles.js"></script>
+	<script src="js/flowers.js"></script>		
+	<script src="js/bee.js"></script>	
+	<script src="js/swarm.js"></script>	
+	<script src="js/sceneHandler.js"></script>
+
+	<div id="status">
+		<h2>Status:</h2>
+		<br>
+		<div id="simstat"></div>
+	</div>
+   </body>
+</html>
+
+
