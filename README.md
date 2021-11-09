@@ -20,11 +20,6 @@ More information on the project can be consulted in https://www.joao-vieira.pt/p
 
 Alpha; This application was designed as part of an academic project to serve a demo purpose.
 
-## Configuration
-
-Read and edit `config/app.php` and setup the `'Datasources'` and any other
-configuration relevant for your application.
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
